@@ -1,35 +1,40 @@
 /* Your code here */
 .wgs{
-  height: 482px;
-  width: 640px;
+  height: 241px;
+  width: 320px;
   position:relative;
   display: inline-block;
   overflow: hidden;
 
 }
 .wgs__mole-head{
-  height: 356px;
-  width: 376px;
+  height: 178px;
+  width: 188px;
   position:absolute;
-  left: 109px;
+  left: 55px;
+  transition: margin-top 0.25s;
 }
 .wgs__dirt-pile{
-  height: 220px;
-  width: 640px;
+  height: 110px;
+  width: 320px;
   position:absolute;
-  top: 262px;
+  bottom:0;
 }
 .wgs__mole-head--hidden{
-  height: 356px;
-  width: 376px;
+  height: 178px;
+  width: 188px;
   position:absolute;
-  left: 109px;
-  margin-top: 482px;
+  left: 55px;
+  margin-top: 241px;
+}
+.pf{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
 }
 
-
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -38,17 +43,17 @@
   font-size: 30px;
   margin-bottom: 50px;
   padding: 10px 20px;
-} */
+} 
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+} 
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+} 
 
-/* .sb__game-over--hidden {
+ .sb__game-over--hidden {
   display: none;
-} */
+} 
