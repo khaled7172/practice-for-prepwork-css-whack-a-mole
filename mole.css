@@ -56,5 +56,4 @@
 .wgs__mole-head--whacked {
   transform: scale(1.5);  /* Scale up the mole head */
   background-color: red;  /* Change color to red */
-  opacity: 0;  /* Fade out */
 }
