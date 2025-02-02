@@ -21,10 +21,6 @@
   bottom:0;
 }
 .wgs__mole-head--hidden{
-  height: 178px;
-  width: 188px;
-  position:absolute;
-  left: 55px;
   margin-top: 241px;
 }
 .pf{
@@ -56,4 +52,9 @@
 
  .sb__game-over--hidden {
   display: none;
-} 
+}
+.wgs__mole-head--whacked {
+  transform: scale(1.5);  /* Scale up the mole head */
+  background-color: red;  /* Change color to red */
+  opacity: 0;  /* Fade out */
+}

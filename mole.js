@@ -55,18 +55,7 @@ window.addEventListener('DOMContentLoaded', () => {
        event.target.classList.add('wgs__mole-head--hidden');
 
       // UNCOMMENT THIS LINE OF CODE WHEN DIRECTED FOR THE BONUS
-      // event.target.classList.add('wgs__mole-head--whacked');
+      event.target.classList.add('wgs__mole-head--whacked');
     });
   }
 });
-/*the 1 sec animation
-window.addEventListener('DOMContentLoaded', () => {
-
-  setInterval(() => {
-    const moleHeads = document.querySelectorAll('.wgs__mole-head');
-    for (let moleHead of moleHeads) {
-      moleHead.classList.toggle('wgs__mole-head--hidden');
-    }
-  }, 1000);
-
-});*/
